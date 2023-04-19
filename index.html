@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  </head>
+  <body>
+      <nav class="navbar navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+          <button id="scroll-to-top-btn" class="navbar-toggler" type="button">
+            <img src="./images/arrow.svg" alt="Up Arrow">
+          </button>
+        </div>
+      </nav>
+      
+
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Restaurant Guide</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Understanding Macros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tracking Macros</a>
+        </li>
+      </ul>
+
+      <div class="row">
+        <div class="col-4">
+          <div id="list-example" class="list-group">
+            <a class="list-group-item list-group-item-action" href="#">Starbucks</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-1">Chick-fil-A</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">Arby's</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Wingstop</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-4">Wendy's</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-5">Sonic</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-6">Outback Steakhouse</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-7">Chili's</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-8">Red Lobster</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-9">The Cheesecake Factory</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-10">Panda Express</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-11">Burger King</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-12">Taco Bell</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-13">Buffalo Wild Wings</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-14">Olive Garden</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-15">Subway</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-16">Qdoba</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-17">Noodles & Company</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-18">A&W</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-19">Panera Bread</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-20">Applebee's</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-21">Chipotle</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-22">KFC</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-23">McDonald's</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-24">Popeye's</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-25">Kwik Trip</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-26">Chinese Restaurants</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-27">Mexican Restaurants</a>
+
+          </div>
+        </div>
+        <div class="col-8">
+          <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+            <h4 id="list-item-1">Starbucks</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="./images/starbucks.png" class="card-img-top" alt="starbucks logo">
+                  <div class="card-body">
+                    <ul><h5 class="card-title">Cold Brew Coffee</h5>
+                      <p class="card-text">5 Cals | 0g Protein/0g Carb/0g Fat</p></ul>
+                    <ul><h5 class="card-title">Turkey Bacon, Cheddar & Egg White Sandwich</h5>
+                      <p class="card-text">230 Cals | 17g Protein/28g Carb/5g Fat</p></ul>
+                    <ul><h5 class="card-title">Spinach, Feta, & Egg White Wrap</h5>
+                      <p class="card-text">290 Cals | 20g Protein/34g Carb/8g Fat</p></ul>
+                    <ul><h5 class="card-title">Egg White & Roasted Red Pepper Egg Bite</h5>
+                      <p class="card-text">170 Cals | 12g Protein/11g Carb/8g Fat</p></ul>
+                    <ul><h5 class="card-title">Bacon, Gouda, & Egg Sandwich</h5>
+                      <p class="card-text">360 Cals | 19g Protein/35g Carb/18g Fat</p></ul>
+                  </div>
+                </div>
+              </div></p>
+            <h4 id="list-item-2">Chick-fil-A</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="./images/chick-fil-a.png" class="card-img-top" alt="chick-fil-a logo">
+                  <div class="card-body">
+                    <ul><h5 class="card-title">12 count grilled nuggets</h5>
+                      <p class="card-text">200 Cals | 38g Protein/2g Carb/5g Fat</p></ul>
+                    <ul><h5 class="card-title">egg white grill</h5>
+                      <p class="card-text">290 Cals | 26g Protein/30g Carb/8g Fat</p></ul>
+                    <ul><h5 class="card-title">grilled chicken sandwich</h5>
+                      <p class="card-text">380 Cals | 28g Protein/44g Carb/11g Fat</p></ul>
+                    <ul><h5 class="card-title">market salad w/ grilled chicken nuggets</h5>
+                      <p class="card-text">570 Cals | 32g Protein/41g Carb/32g Fat</p></ul>
+                    <ul><h5 class="card-title">grilled chicken club w/ no cheese</h5>
+                      <p class="card-text">430 Cals | 32g Protein/44g Carb/15g Fat</p></ul>
+                  </div>
+                </div>
+              </div></p>
+            <h4 id="list-item-3">Arby's</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="./images/arbys.jpeg" class="card-img-top" alt="arby's logo">
+                  <div class="card-body">
+                    <ul><h5 class="card-title">classic roast beef sandwich</h5>
+                      <p class="card-text">360 Cals | 23g Protein/37g Carb/14g Fat</p></ul>
+                    <ul><h5 class="card-title">roast turkey & swiss wrap</h5>
+                      <p class="card-text">290 Cals | 26g Protein/30g Carb/8g Fat</p></ul>
+                    <ul><h5 class="card-title">roast chicken salad</h5>
+                      <p class="card-text">380 Cals | 28g Protein/44g Carb/11g Fat</p></ul>
+                    <ul><h5 class="card-title">market salad w/ grilled chicken nuggets</h5>
+                      <p class="card-text">570 Cals | 32g Protein/41g Carb/32g Fat</p></ul>
+                    <ul><h5 class="card-title">roast beef 'n cheddar slider</h5>
+                      <p class="card-text">210 Cals | 10g Protein/21g Carb/9g Fat</p></ul>
+                  </div>
+                </div>
+              </div></p>
+            <h4 id="list-item-4">Wingstop</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+              <h4 id="list-item-5">Wendy's</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+              <h4 id="list-item-6">Sonic</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+              <h4 id="list-item-7">Outback Steakhouse</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+              <h4 id="list-item-8">Chili's</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+              <h4 id="list-item-9">Red Lobster</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+              <h4 id="list-item-10">The Cheesecake Factory</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+              <h4 id="list-item-11">Panda Express</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+              <h4 id="list-item-12">Burger King</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+              <h4 id="list-item-13">Taco Bell</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+              <h4 id="list-item-14">Buffalo Wild Wings</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+              <h4 id="list-item-15">Olive Garden</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+              <h4 id="list-item-16">Subway</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+              <h4 id="list-item-17">Qdoba</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+              <h4 id="list-item-18">Noodles & Company</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+              <h4 id="list-item-19">A&W</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+              <h4 id="list-item-20">Panera Bread</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+              <h4 id="list-item-21">Applebee's</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+              <h4 id="list-item-22">Chipotle</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+              <h4 id="list-item-23">KFC</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+              <h4 id="list-item-24">McDonald's</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+              <h4 id="list-item-25">Popeye's</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+              <h4 id="list-item-26">Kwik Trip</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+              <h4 id="list-item-27">Chinese Restaurants</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+              <h4 id="list-item-28">Mexican Restaurants</h4>
+            <p><div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div></p>
+          </div>
+        </div>
+      </div>
+
+  
+</body>
+</html>

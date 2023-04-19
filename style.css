@@ -1,0 +1,100 @@
+a[class="nav-link"] {
+    color: black;
+}
+
+.nav-tabs {
+    background-color: #fbbf24;
+}
+
+a.nav-link.active, a.nav-link {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 20px;
+    letter-spacing: -0.2px;
+    word-spacing: 2px;
+    color: #454545;
+    font-weight: 400;
+    text-decoration: none;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
+a.nav-link.active {
+    background-color: #fbbf24 !important;
+    border-bottom: 0px solid #fbbf24 !important;
+  }
+
+a.list-group-item {
+    background-color: #1993D3;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    border: 1px;
+}
+
+.col-4 {
+    background: #576D77;
+    background: -moz-linear-gradient(left, #576D77 0%, #4D5860 50%, #3B4A51 100%);
+    background: -webkit-linear-gradient(left, #576D77 0%, #4D5860 50%, #3B4A51 100%);
+    background: linear-gradient(to right, #576D77 0%, #4D5860 50%, #3B4A51 100%);
+}
+
+.col-8 {
+    background: #3B4A51;
+    background: -moz-linear-gradient(left, #3B4A51 0%, #4D5860 50%, #576D77 100%);
+    background: -webkit-linear-gradient(left, #3B4A51 0%, #4D5860 50%, #576D77 100%);
+    background: linear-gradient(to right, #3B4A51 0%, #4D5860 50%, #576D77 100%);
+}
+
+h4#list-item-1 {
+    margin-top: 0.5rem;
+}
+
+div>h4 {
+    color: white;
+    font-weight: 700;
+}
+
+div.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 100%;
+    background-color: #fbbf24;
+
+}
+
+div>img[src]{
+    display: block;
+    width: 100px; /* adjust as needed */
+    background-color: transparent;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.card-title {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 20px;
+    letter-spacing: -0.2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
+.card-text {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    letter-spacing: -0.4px;
+    word-spacing: 2px;
+    color: #606060;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+}
