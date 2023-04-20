@@ -54,6 +54,10 @@ div>h4 {
     font-weight: 700;
 }
 
+.card {
+    border: 5px solid #f43f5e !important;
+}
+
 div.card::before {
     content: "";
     position: absolute;
