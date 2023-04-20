@@ -45,6 +45,10 @@ a.list-group-item {
     background: linear-gradient(to right, #3B4A51 0%, #4D5860 50%, #576D77 100%);
 }
 
+.row {
+    margin-right: 0px !important;
+}
+
 h4#list-item-1 {
     margin-top: 0.5rem;
 }
